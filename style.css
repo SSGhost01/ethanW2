@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+}
+.resim{
+    width: 200px;
+    height: 100vh;
+    border: 2px solid rgb(118, 203, 232);
+    border-radius: 30px;
+    margin: 10px;
+    background-size: cover;
+    flex: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.resim.active{
+    flex: 5;
+}
+
+
+#one{
+    background-image: url("ss/pexels-asim-razan-404995 - Kopya.jpg");
+}
+#two{
+    background-image: url("ss/pexels-stefits-11477792.jpg");
+}
+#three{
+     background-image: url("ss/pexels-asim-razan-404995.jpg");
+}
+#four{
+    background-image: url("ss/pexels-stefits-11477794.jpg");
+}
+#five{
+    background-image: url("ss/pexels-tima-miroshnichenko-6091281.jpg");
+}
